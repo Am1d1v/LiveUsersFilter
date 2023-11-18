@@ -51,6 +51,10 @@ body
         li
             display: flex
             padding: 20px
+            &:not(:last-of-type)
+                border-bottom: 1px solid #a1a1a1
+            &.hide
+                display: none    
         img
             border-radius: 50%
             object-fit: cover
@@ -61,7 +65,10 @@ body
         h4
             margin: 0 0 10px
         p
-            font-size: 12px    
+            font-size: 12px
+        
+                
+                
          
 
     
